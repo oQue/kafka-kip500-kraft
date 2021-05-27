@@ -10,6 +10,7 @@ RUN apk add --no-cache openjdk8-jre bash curl \
 
 ENV PATH /sbin:/opt/kafka/bin/:$PATH
 
+USER kafka
 WORKDIR /opt/kafka
 
 RUN clusterID=`kafka-storage.sh random-uuid` \
