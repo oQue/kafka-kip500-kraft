@@ -2,7 +2,7 @@
 
 Docker image with Kafka in preview mode using Kraft instead of Zookeper.
 
-Hub link: https://hub.docker.com/repository/docker/oque/kafka-kip500-kraft/general
+Hub link: https://hub.docker.com/r/oque/kafka-kip500-kraft
 
 Run with
 
